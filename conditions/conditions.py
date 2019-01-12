@@ -32,3 +32,19 @@ for friend in ['Nama', 'Cate', 'Sue']:
 print(5 == 10)
 print(10 > 5)
 print((5 >= 1) and (5 <= 10))
+
+# feature that allows you control the flow of your program based on the value of a variable or an expression.
+# The Pythonic way to implement switch statement is to use dictionary mappings.
+
+def switch_demo(argument):
+    switcher = {
+        1: "January",
+        2: "February",
+        3: "March",
+        4: "April",
+        5: "May",
+     }
+    print(switcher.get(argument, "Invalid month"))
+
+
+switch_demo(6)
