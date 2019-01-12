@@ -32,3 +32,17 @@ for friend in ['Nama', 'Cate', 'Sue']:
 print(5==10)
 print(10 > 5)
 print((5 >= 1) and (5 <= 10))
+
+# Switch STATEMENT - is a multiway branch statement that compares the value of a variable to values specified in case statements
+# Py dsnt have switch statement it uses dictionary mapping to implement switch statement
+
+var = input("enter a number between 1 and 5")
+def switch_demo(var):
+    switcher = {
+        1: "January",
+        2: "February",
+        3: "March",
+        4: "June",
+        5: "July"
+     }
+     print switcher.get(var, "Invalid month")
