@@ -4,40 +4,40 @@ colors = ['Blue', 'Black', 'Brown', 'Grey']  #create a new list
 print(colors)  #print list
 
 #indexing - access items uisng indexes
-newcolors = colors[-3:] #print last 3 items from the list
-print(newcolors)
+last_three_colors = colors[-3:] #print last 3 items from the list
+print(last_three_colors)
 
 # Lists also suports operations  i.e concatenation
-newcolors1 = colors + ['Orange', 'Purple']
-print(newcolors1)
+add_colors = colors + ['Orange', 'Purple']
+print(add_colors)
 
 #Types of methods
-Animals = ['Tiger', 'Horse', 'Kangaroo','Tiger']
-Animals.reverse()
-print(Animals)
+animals = ['Tiger', 'Horse', 'Kangaroo','Tiger']
+animals.reverse()
+print(animals)
 # add item to the end of the list
-Animals.append('Fox')
-print(Animals)
+animals.append('Fox')
+print(animals)
 # Remove the first item
-Animals.remove('Horse')
-print(Animals)
+animals.remove('Horse')
+print(animals)
 #insert an item at a given position
-Animals.insert(2,'Monkey')
-print(Animals)
+animals.insert(2,'Monkey')
+print(animals)
 # Remove item at a given position in the lists
-Animals.pop(2)
-print(Animals)
+animals.pop(2)
+print(aimals)
 # #######################################
-Numbers = [1,12,34,76,8,10,65,12,12]
+numbers = [1,12,34,76,8,10,65,12,12]
 # sort the lists
-Numbers.sort()
-print(Numbers)
+numbers.sort()
+print(numbers)
 # Return no of times x appears in the lists
-Num = Numbers.count(12)
-print(Num)
+num = numbers.count(12)
+print(num)
 # Return a shallow copy of the lists
-Numbers.copy()
-print(Numbers)
+numbers.copy()
+print(numbers)
 
 # using list as stacks(last-in, first-out)
 stack = ['cate', 'Eva', 'Asha']
