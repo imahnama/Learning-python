@@ -1,5 +1,5 @@
 num = int(input("Enter a number: ")) #prompt user to enter a number
-def collatz_con(n):
+def collatz_conjecture(n):
     while n != 1:
         if n % 2 == 0: # if n is even
             n = n / 2  # do
@@ -8,4 +8,4 @@ def collatz_con(n):
             n = (3*n + 1)
             print(n)
 
-collatz_con(num) #call function
+collatz_conjecture(num) #call function
